@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+
+
+
+}
+.wrapper{
+    height: 260px;
+    max-width: 410px;
+    border-radius: 7px;
+    padding: 16px 25px;
+    transition: height 0.2s ease;
+    background: rgba( 31, 31, 31, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.wrapper.active{
+    height: 530px;
+}
+header h1{
+     font-size: 21px;
+     font-weight: 500;
+     color: #fff;
+}
+header p{
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+.wrapper .form{
+    margin: 20px 0 25px;
+}
+.form :where(input, button){
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgba( 0, 0, 0, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.form input{
+    font-size: 18px;
+    padding: 0 17px;
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+.form button{
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+    background: #33a0e4;
+}
+.wrapper .qr-code{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 33px 0;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+.wrapper.active .qr-code{
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s 0.05s ease;
+}
+.inputtext{
+    color: aliceblue;
+}
