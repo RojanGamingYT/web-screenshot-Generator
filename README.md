@@ -9,7 +9,3 @@ MakeQR is a web app to generate QR codes from text or URL.
 
 - Minimal UI
 - Easy to use
-
-## License
-
-[HERE](https://github.com/Sharukhi/MakeQR/blob/main/LICENSE)
