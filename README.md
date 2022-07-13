@@ -6,8 +6,5 @@ A web app to generate QR codes from text or URL.
          <img alt="Image" src="https://image.thum.io/get/https://rojangamingyt.github.io/qr-generator/">
       </a>
 
-
-### Features
-
 - Minimal UI
 - Easy to use
