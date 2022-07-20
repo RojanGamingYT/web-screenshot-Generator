@@ -1,22 +1,22 @@
 const wrapper = document.querySelector(".wrapper"),
-qrInput = wrapper.querySelector(".form input"),
+ssInput = wrapper.querySelector(".form input"),
 generateBtn = wrapper.querySelector(".form button"),
-qrImg = wrapper.querySelector(".qr-code img");
+ssImg = wrapper.querySelector(".ss-img img");
 
 generateBtn.addEventListener("click", () => {
-    let qrValue = qrInput.value;
-    if(!qrValue) return;
-    preValue = qrValue;
-    generateBtn.innerText = "Generating QR Code...";
-    qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrValue}`;
-    qrImg.addEventListener("load", () => {
+    let ssValue = ssInput.value;
+    if(!ssValue) return;
+    preValue = ssValue;
+    generateBtn.innerText = "Generating Screenshot...";
+    ssImg.src = `https://image.thum.io/get/${ssValue}`;
+    ssImg.addEventListener("load", () => {
         wrapper.classList.add("active");
-        generateBtn.innerText = "Generate QR Code";
+        generateBtn.innerText = "Generate Screenshot";
     });
 });
 
-qrInput.addEventListener("keyup", () => {
-    if(!qrInput.value) {
+ssInput.addEventListener("keyup", () => {
+    if(!ssInput.value) {
         wrapper.classList.remove("active");
     }
 });
