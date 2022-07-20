@@ -73,7 +73,7 @@ header p{
     font-size: 17px;
     background: #33a0e4;
 }
-.wrapper .qr-code{
+.wrapper .ss-img{
     border: 1px solid rgb(255, 255, 255);
     padding: 33px 0;
     display: flex;
@@ -83,7 +83,7 @@ header p{
     opacity: 0;
     pointer-events: none;
 }
-.wrapper.active .qr-code{
+.wrapper.active .ss-img{
     opacity: 1;
     pointer-events: auto;
     transition: opacity 0.5s 0.05s ease;
