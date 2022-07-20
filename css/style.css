@@ -87,6 +87,9 @@ header p{
     opacity: 1;
     pointer-events: auto;
     transition: opacity 0.5s 0.05s ease;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 .inputtext{
     color: aliceblue;
