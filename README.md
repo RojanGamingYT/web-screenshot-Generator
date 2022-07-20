@@ -1,4 +1,4 @@
-## QR Generator?
+## Screenshot Generator?
 
 A web app to generate Web Screenshot from URL.
 
