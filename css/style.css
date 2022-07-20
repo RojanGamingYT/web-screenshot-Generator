@@ -91,3 +91,7 @@ header p{
 .inputtext{
     color: aliceblue;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
