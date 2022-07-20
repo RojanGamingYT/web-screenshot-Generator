@@ -3,7 +3,7 @@
 A web app to generate Web Screenshot from URL.
 
 <a href="https://rojansapkota.com.np/">
-         <img alt="Image" src="http://image.thum.io/get/width/1200/wait/3/https://ss.rojansapkota.com.np">
+         <img alt="Image" src="http://image.thum.io/get/width/1200/https://ss.rojansapkota.com.np">
       </a>
 
 # Features
