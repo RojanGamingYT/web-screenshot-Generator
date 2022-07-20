@@ -8,7 +8,7 @@ generateBtn.addEventListener("click", () => {
     if(!ssValue) return;
     preValue = ssValue;
     generateBtn.innerText = "Generating Screenshot...";
-    ssImg.src = `https://api.site-shot.com/?url=${ssValue}&userkey=QAAIEYKBJAINP36IQ7HQ34GWFN`;
+    ssImg.src = `https://image.thum.io/get/fullpage/png/${ssValue}`;
     ssImg.addEventListener("load", () => {
         wrapper.classList.add("active");
         generateBtn.innerText = "Generate Screenshot";
