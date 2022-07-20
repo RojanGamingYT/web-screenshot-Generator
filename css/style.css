@@ -82,9 +82,6 @@ header p{
     justify-content: center;
     opacity: 0;
     pointer-events: none;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
 }
 .wrapper.active .ss-img{
     opacity: 1;
