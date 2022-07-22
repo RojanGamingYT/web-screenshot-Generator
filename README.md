@@ -10,3 +10,4 @@ A web app to generate Web Screenshot from URL.
 
 - Minimal UI
 - Easy to use
+- Efficient
